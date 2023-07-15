@@ -26,4 +26,4 @@ jobs:
         uses: docker/build-push-action@v4
         with:
           push: true
-          tags: ${{ secrets.REGISTRY_URL }}/application:latest
+          tags: ${{ secrets.REGISTRY_URL }}/application/application:latest
