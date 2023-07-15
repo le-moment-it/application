@@ -26,4 +26,4 @@ jobs:
         uses: docker/build-push-action@v4
         with:
           push: true
-          tags: ${{ secrets.REGISTRY_URL }}/application/application:latest
+          tags: 4bb85r8g.gra7.container-registry.ovh.net/application/application:$GITHUB_SHA
