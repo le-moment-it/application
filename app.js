@@ -3,7 +3,7 @@ const path = require("path");
 const morgan = require("morgan");
 const bodyParser = require("body-parser");
 /* eslint-disable no-console */
-const port = process.env.PORT || 1337;
+const port = process.env.PORT || 1338;
 const app = express();
 app.use(morgan("dev"));
 app.use(bodyParser.json());
